@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+
+/* Nav */
+
+li.nav-item {
+    list-style: none;
+    
+}
+
+li.nav-item:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #F26E02;
+}
+
+.logoMenu {
+    width: 180px;
+    display: flex;
+    align-items: center;
+}
+
+.textoMenu {
+    color: black;
+    background-color: white;
+}
+
+.textoMenu:active {
+    background-color: white;
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+    padding: 10px;
+}
+
+.dropdown-item:hover {
+    text-decoration-line: underline;
+    text-decoration-color: #F26E02;
+}
+
+.dropdown-item:focus {
+    color: black;
+}
+
+.navbar-toggler,
+.btn-close {
+    border: none;
+}
+
+.navbar-toggler:active,
+.btn-close:active {
+    box-shadow: none;
+    background-color: white;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    background-color: white;
+}
+
+
+/* Footer */
+
+.enlaceFooter {
+    text-decoration: none;
+    color: white;
+}
+
+.enlaceFooter:hover {
+    text-decoration: underline;
+    text-decoration-color: #F26E02;
+}
+
+.logoFooter {
+    width: 180px;
+}
+
+.redesFooter {
+    color: white;
+}
+
+/* Titulos */
+
+.titulo {
+    color: #F26E02;
+}
+
+/* Botones */
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: #F26E02;
+    padding: 10px 20px;
+    border: none;
+}
+
+.boton:hover {
+    background-color: #f26e02cb;
+    transition: 0.3s;
+}

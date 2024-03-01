@@ -1,0 +1,29 @@
+/* Acordeones */
+
+.accordion-item {
+    background-color: none;
+    border-radius: none;
+    border: none;
+    border-left: 5px solid #F26E02;
+    box-shadow: 0px 0px 2px 0px #F26E02;
+    padding: 0px 0px 10px;
+    margin-bottom: 20px;
+}
+
+.accordion-button, .accordion-item:first-of-type, .accordion-item:last-of-type {
+    border-radius: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+    color: #F26E02;
+}
+
+
+/* Texto informativo * */
+
+.textoInformacion {
+    font-size: smaller;
+    color: #F26E02;
+}
